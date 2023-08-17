@@ -16,13 +16,21 @@ public class ApplicationRunner {
         System.out.println(BeanFactoryPostProcessor.class.isAssignableFrom(value.getClass()));
         System.out.println(Serializable.class.isAssignableFrom(value.getClass()));
 
-        try (var context = new AnnotationConfigApplicationContext(ApplicationConfiguration.class)) {
-            //      clazz -> String -> Map<String, Object>
+        try (var context = new AnnotationConfigApplicationContext()) {
+            context.register(ApplicationConfiguration.class);
+            context.getEnvironment().setActiveProfiles("web", "prod");
+            context.refresh();
+
+
             var connectionPool = context.getBean("pool1", ConnectionPool.class);
             System.out.println(connectionPool);
 
             var companyRepository = context.getBean("companyRepository", CrudRepository.class);
             System.out.println(companyRepository.findById(1));
+
         }
     }
 }
+
+
+
