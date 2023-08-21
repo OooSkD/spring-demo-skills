@@ -14,14 +14,12 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.FilterType;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Profile;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
-//@ImportResource("classpath:application.xml")
+
 @Import(WebConfiguration.class)
 @Configuration(proxyBeanMethods = true)
-@PropertySource("classpath:application.properties")
 @ComponentScan(basePackages = "com.demo.spring",
         useDefaultFilters = false,
         includeFilters = {
@@ -30,9 +28,6 @@ import org.springframework.stereotype.Component;
                 @Filter(type = FilterType.REGEX, pattern = "com\\..+Repository")
         })
 public class ApplicationConfiguration {
-
-
-
     @Bean("pool2")
     @Scope(BeanDefinition.SCOPE_SINGLETON)
     public ConnectionPool pool2(@Value("${db.username}") String username) {
@@ -46,7 +41,6 @@ public class ApplicationConfiguration {
 
     @Bean
     @Profile("prod|web")
-//    ! & |
     public UserRepository userRepository2(ConnectionPool pool2) {
         return new UserRepository(pool2);
     }
