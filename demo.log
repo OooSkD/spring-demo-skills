@@ -1,50 +1,125 @@
-2023-08-22 15:31:09.462  INFO 9888 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 15:31:09.485  INFO 9888 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 15:31:09.486  INFO 9888 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 15:31:09.490  WARN 9888 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 15:31:09.496  WARN 9888 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 15:31:09.559  INFO 9888 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 15:31:09.559  INFO 9888 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 15:31:09.560  INFO 9888 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:12:17.610  INFO 18856 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:12:17.632  INFO 18856 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:12:17.634  INFO 18856 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:12:17.641  WARN 18856 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:12:17.648  WARN 18856 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:12:18.143  INFO 18856 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:12:18.144  INFO 18856 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:12:18.144  INFO 18856 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:16:43.911  INFO 15780 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:16:43.931  INFO 15780 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:16:43.932  INFO 15780 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:16:43.938  WARN 15780 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:16:43.945  WARN 15780 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:20:04.383  INFO 9176 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:20:04.399  INFO 9176 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:20:04.400  INFO 9176 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:20:04.405  WARN 9176 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:20:04.411  WARN 9176 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:20:04.867  INFO 9176 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:20:04.868  INFO 9176 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:20:04.868  INFO 9176 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:23:41.741  INFO 7108 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:23:41.758  INFO 7108 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:23:41.759  INFO 7108 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:23:41.765  WARN 7108 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:23:41.771  WARN 7108 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:23:42.251  INFO 7108 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:23:42.251  INFO 7108 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:23:42.251  INFO 7108 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:29:29.572  INFO 15896 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:29:29.596  INFO 15896 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:29:29.598  INFO 15896 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:29:29.607  WARN 15896 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:29:29.615  WARN 15896 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:29:30.265  INFO 15896 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:29:30.266  INFO 15896 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:29:30.266  INFO 15896 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
-2023-08-22 17:34:29.517  INFO 12944 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:34:30.158  INFO 12944 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:34:30.160  INFO 12944 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
-2023-08-22 17:34:30.169  WARN 12944 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
-2023-08-22 17:34:30.178  WARN 12944 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 16:43:26.186  INFO 8824 --- [main] com.demo.spring.ApplicationRunner        : Starting ApplicationRunner using Java 17.0.8 on DESKTOP-QCGJBNH with PID 8824 (D:\My\Study\Java\Spring\spring-demo-skills\build\classes\java\main started by Sonya in D:\My\Study\Java\Spring\spring-demo-skills)
+2023-08-28 16:43:26.192  INFO 8824 --- [main] com.demo.spring.ApplicationRunner        : The following profiles are active: qa
+2023-08-28 16:43:26.715  INFO 8824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-28 16:43:26.731  INFO 8824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2023-08-28 16:43:27.108  INFO 8824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-28 16:43:27.356  INFO 8824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-28 16:43:27.430  INFO 8824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-28 16:43:27.570  INFO 8824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-08-28 16:43:27.830  INFO 8824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-28 16:43:28.005  INFO 8824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-08-28 16:43:28.182  INFO 8824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-28 16:43:28.190  INFO 8824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 16:43:28.199  INFO 8824 --- [main] com.demo.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2023-08-28 16:43:28.208  INFO 8824 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 16:43:28.223  INFO 8824 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 16:43:28.224  INFO 8824 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 16:43:28.226  WARN 8824 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 16:43:28.248  WARN 8824 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 16:43:28.381  INFO 8824 --- [main] com.demo.spring.ApplicationRunner        : Started ApplicationRunner in 2.658 seconds (JVM running for 3.035)
+2023-08-28 16:43:28.396  INFO 8824 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 16:43:28.397  INFO 8824 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 16:43:28.397  INFO 8824 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 16:43:28.397  INFO 8824 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 16:43:28.399  INFO 8824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-28 16:43:28.406  INFO 8824 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-28 17:31:10.637  INFO 1716 --- [main] com.demo.spring.ApplicationRunner        : Starting ApplicationRunner using Java 17.0.8 on DESKTOP-QCGJBNH with PID 1716 (D:\My\Study\Java\Spring\spring-demo-skills\build\classes\java\main started by Sonya in D:\My\Study\Java\Spring\spring-demo-skills)
+2023-08-28 17:31:10.639  INFO 1716 --- [main] com.demo.spring.ApplicationRunner        : The following profiles are active: qa
+2023-08-28 17:31:11.130  INFO 1716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-28 17:31:11.146  INFO 1716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-08-28 17:31:11.558  INFO 1716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-28 17:31:11.617  INFO 1716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-08-28 17:31:11.775  INFO 1716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-28 17:31:11.970  INFO 1716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-28 17:31:12.156  INFO 1716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-28 17:31:12.190  INFO 1716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-08-28 17:31:12.967  INFO 1716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-28 17:31:12.976  INFO 1716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:31:12.984  INFO 1716 --- [main] com.demo.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2023-08-28 17:31:12.991  INFO 1716 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:31:13.008  INFO 1716 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:31:13.010  INFO 1716 --- [main] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:31:13.012  WARN 1716 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:31:13.045  WARN 1716 --- [main] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:31:13.162  INFO 1716 --- [main] com.demo.spring.ApplicationRunner        : Started ApplicationRunner in 2.96 seconds (JVM running for 3.294)
+2023-08-28 17:31:13.177  INFO 1716 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:31:13.178  INFO 1716 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:31:13.178  INFO 1716 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:31:13.178  INFO 1716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:31:13.180  INFO 1716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-28 17:31:13.186  INFO 1716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-28 17:42:44.807  INFO 20264 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : Starting CompanyRepositoryTest using Java 17.0.8 on DESKTOP-QCGJBNH with PID 20264 (started by Sonya in D:\My\Study\Java\Spring\spring-demo-skills)
+2023-08-28 17:42:44.808  INFO 20264 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : The following profiles are active: test
+2023-08-28 17:42:45.298  INFO 20264 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-28 17:42:45.314  INFO 20264 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2023-08-28 17:42:45.836  INFO 20264 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-28 17:42:45.884  INFO 20264 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-08-28 17:42:46.030  INFO 20264 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-28 17:42:46.135  INFO 20264 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-28 17:42:46.265  INFO 20264 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-28 17:42:46.289  INFO 20264 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-08-28 17:42:47.060  INFO 20264 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-28 17:42:47.067  INFO 20264 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:42:47.082  INFO 20264 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:42:47.264  INFO 20264 --- [Test worker] com.demo.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2023-08-28 17:42:47.280  INFO 20264 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:42:47.282  INFO 20264 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:42:47.285  WARN 20264 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:42:47.303  WARN 20264 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:42:47.494  INFO 20264 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : Started CompanyRepositoryTest in 3.004 seconds (JVM running for 4.119)
+2023-08-28 17:42:47.629  INFO 20264 --- [Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@f9d87b testClass = CompanyRepositoryTest, testInstance = com.demo.spring.integration.database.repository.CompanyRepositoryTest@2a8e30e3, testMethod = findById@CompanyRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ffab045 testClass = CompanyRepositoryTest, locations = '{}', classes = '{class com.demo.spring.ApplicationRunner, class com.demo.spring.integration.TestApplicationRunner}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3568f9d2, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4fad9bb2, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22d7b4f8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2c1156a7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7502291e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@d29f28], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@7cd25bf5]; rollback [true]
+2023-08-28 17:42:47.757  INFO 20264 --- [Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@f9d87b testClass = CompanyRepositoryTest, testInstance = com.demo.spring.integration.database.repository.CompanyRepositoryTest@2a8e30e3, testMethod = findById@CompanyRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6ffab045 testClass = CompanyRepositoryTest, locations = '{}', classes = '{class com.demo.spring.ApplicationRunner, class com.demo.spring.integration.TestApplicationRunner}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3568f9d2, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4fad9bb2, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@22d7b4f8, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@2c1156a7, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@7502291e, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@d29f28], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2023-08-28 17:42:47.773  INFO 20264 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:42:47.773  INFO 20264 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:42:47.773  INFO 20264 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:42:47.773  INFO 20264 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:42:47.775  INFO 20264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-28 17:42:47.780  INFO 20264 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-08-28 17:43:28.192  INFO 2040 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : Starting CompanyRepositoryTest using Java 17.0.8 on DESKTOP-QCGJBNH with PID 2040 (started by Sonya in D:\My\Study\Java\Spring\spring-demo-skills)
+2023-08-28 17:43:28.193  INFO 2040 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : The following profiles are active: test
+2023-08-28 17:43:28.683  INFO 2040 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-28 17:43:28.704  INFO 2040 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2023-08-28 17:43:29.264  INFO 2040 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-28 17:43:29.327  INFO 2040 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-08-28 17:43:29.507  INFO 2040 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-28 17:43:29.635  INFO 2040 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-28 17:43:29.797  INFO 2040 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-28 17:43:29.834  INFO 2040 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-08-28 17:43:30.747  INFO 2040 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-28 17:43:30.757  INFO 2040 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:43:30.775  INFO 2040 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:43:30.963  INFO 2040 --- [Test worker] com.demo.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2023-08-28 17:43:30.980  INFO 2040 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:43:30.982  INFO 2040 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:43:30.986  WARN 2040 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:43:31.004  WARN 2040 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:43:31.201  INFO 2040 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : Started CompanyRepositoryTest in 3.368 seconds (JVM running for 4.946)
+2023-08-28 17:43:31.349  INFO 2040 --- [Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@6ffab045 testClass = CompanyRepositoryTest, testInstance = com.demo.spring.integration.database.repository.CompanyRepositoryTest@6fad5ace, testMethod = findById@CompanyRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@26fb628 testClass = CompanyRepositoryTest, locations = '{}', classes = '{class com.demo.spring.ApplicationRunner, class com.demo.spring.integration.TestApplicationRunner}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@71c27ee8, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@517d4a0d, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@149dd36b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@33fe57a9, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@17aad511, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@2fd1433e], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@36eb8e07]; rollback [true]
+2023-08-28 17:44:26.160  WARN 2040 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=56s253ms760µs900ns).
+2023-08-28 17:50:24.296  INFO 2504 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : Starting CompanyRepositoryTest using Java 17.0.8 on DESKTOP-QCGJBNH with PID 2504 (started by Sonya in D:\My\Study\Java\Spring\spring-demo-skills)
+2023-08-28 17:50:24.297  INFO 2504 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : The following profiles are active: test
+2023-08-28 17:50:24.737  INFO 2504 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-28 17:50:24.754  INFO 2504 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2023-08-28 17:50:25.267  INFO 2504 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-28 17:50:25.316  INFO 2504 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2023-08-28 17:50:25.472  INFO 2504 --- [Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-28 17:50:25.578  INFO 2504 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-08-28 17:50:25.710  INFO 2504 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-08-28 17:50:25.735  INFO 2504 --- [Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2023-08-28 17:50:26.523  INFO 2504 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-28 17:50:26.530  INFO 2504 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:50:26.544  INFO 2504 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:50:26.701  INFO 2504 --- [Test worker] com.demo.spring.config.JpaConfiguration  : Jpa configuration is enabled
+2023-08-28 17:50:26.716  INFO 2504 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:50:26.718  INFO 2504 --- [Test worker] c.d.spring.database.pool.ConnectionPool  : Init connection pool
+2023-08-28 17:50:26.721  WARN 2504 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:50:26.742  WARN 2504 --- [Test worker] c.d.s.d.repository.CompanyRepository     : init company repository
+2023-08-28 17:50:26.943  INFO 2504 --- [Test worker] c.d.s.i.d.r.CompanyRepositoryTest        : Started CompanyRepositoryTest in 2.959 seconds (JVM running for 4.084)
+2023-08-28 17:50:27.090  INFO 2504 --- [Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@5ac86ba5 testClass = CompanyRepositoryTest, testInstance = com.demo.spring.integration.database.repository.CompanyRepositoryTest@682d9f21, testMethod = save@CompanyRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6c67e137 testClass = CompanyRepositoryTest, locations = '{}', classes = '{class com.demo.spring.ApplicationRunner, class com.demo.spring.integration.TestApplicationRunner}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4f25b795, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2c1156a7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@e19bb76, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@61a88b8c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5674e1f2, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@69997e9d], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@4203529f]; rollback [false]
+2023-08-28 17:50:27.192  INFO 2504 --- [Test worker] o.s.t.c.transaction.TransactionContext   : Committed transaction for test: [DefaultTestContext@5ac86ba5 testClass = CompanyRepositoryTest, testInstance = com.demo.spring.integration.database.repository.CompanyRepositoryTest@682d9f21, testMethod = save@CompanyRepositoryTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@6c67e137 testClass = CompanyRepositoryTest, locations = '{}', classes = '{class com.demo.spring.ApplicationRunner, class com.demo.spring.integration.TestApplicationRunner}', contextInitializerClasses = '[]', activeProfiles = '{test}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4f25b795, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2c1156a7, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@e19bb76, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@61a88b8c, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@5674e1f2, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@69997e9d], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -> false]]
+2023-08-28 17:50:27.215  INFO 2504 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:50:27.215  INFO 2504 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:50:27.215  INFO 2504 --- [SpringApplicationShutdownHook] c.d.spring.database.pool.ConnectionPool  : Clean connection pool
+2023-08-28 17:50:27.215  INFO 2504 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-28 17:50:27.217  INFO 2504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-08-28 17:50:27.223  INFO 2504 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
