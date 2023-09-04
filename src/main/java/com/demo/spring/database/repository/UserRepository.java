@@ -1,16 +1,34 @@
 package com.demo.spring.database.repository;
 
+
 import com.demo.spring.database.entity.User;
 import com.demo.spring.database.entity.Role;
-import org.springframework.stereotype.Repository;
+import com.demo.spring.dto.PersonalInfo2;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.Lock;
 import org.springframework.data.jpa.repository.Modifying;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.jpa.repository.QueryHints;
+import org.springframework.data.querydsl.QuerydslPredicateExecutor;
+import org.springframework.data.repository.history.RevisionRepository;
+import org.springframework.stereotype.Repository;
 
+import javax.persistence.LockModeType;
+import javax.persistence.QueryHint;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Optional;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends
+        JpaRepository<User, Long>,
+        FilterUserRepository,
+        RevisionRepository<User, Long, Integer>,
+        QuerydslPredicateExecutor<User> {
 
     @Query("select u from User u " +
             "where u.firstname like %:firstname% and u.lastname like %:lastname%")
@@ -26,4 +44,26 @@ public interface UserRepository extends JpaRepository<User, Long> {
             "where u.id in (:ids)")
     int updateRole(Role role, Long... ids);
 
+    Optional<User> findTopByOrderByIdDesc();
+
+    @QueryHints(@QueryHint(name = "org.hibernate.fetchSize", value = "50"))
+    @Lock(LockModeType.PESSIMISTIC_WRITE)
+    List<User> findTop3ByBirthDateBefore(LocalDate birthDate, Sort sort);
+
+
+//  @EntityGraph("User.company")
+    @EntityGraph(attributePaths = {"company", "company.locales"})
+    @Query(value = "select u from User u",
+            countQuery = "select count(distinct u.firstname) from User u")
+    Page<User> findAllBy(Pageable pageable);// Collection, Stream   Streamable, Slice, Page
+
+//  List<PersonalInfo> findAllByCompanyId(Integer companyId);
+
+    @Query(value = "SELECT firstname, " +
+            "lastname, " +
+            "birth_date birthDate " +
+            "FROM users " +
+            "WHERE company_id = :companyId",
+            nativeQuery = true)
+    List<PersonalInfo2> findAllByCompanyId(Integer companyId);
 }

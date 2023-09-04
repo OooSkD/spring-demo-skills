@@ -25,6 +25,7 @@ logging:
   level:
     root: INFO
     com.demo.spring.database.pool: INFO
+    org.springframework.jdbc.core: TRACE
   file:
     name: demo.log
     path: /
