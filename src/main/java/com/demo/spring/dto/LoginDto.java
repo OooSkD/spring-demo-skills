@@ -1,8 +1,9 @@
 package com.demo.spring.dto;
+
 import lombok.Value;
 
 @Value
-public class UserReadDto {
-    Long id;
+public class LoginDto {
     String username;
+    String password;
 }
