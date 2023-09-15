@@ -1,5 +1,4 @@
 package com.demo.spring.dto;
-
 import lombok.Value;
 
 @Value
