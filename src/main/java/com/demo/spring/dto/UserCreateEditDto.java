@@ -2,6 +2,7 @@ package com.demo.spring.dto;
 import com.demo.spring.database.entity.Role;
 import lombok.Value;
 import lombok.experimental.FieldNameConstants;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 
@@ -9,6 +10,7 @@ import java.time.LocalDate;
 @FieldNameConstants
 public class UserCreateEditDto {
     String username;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     LocalDate birthDate;
     String firstname;
     String lastname;

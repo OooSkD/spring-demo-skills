@@ -12,6 +12,7 @@ import static com.demo.spring.dto.UserCreateEditDto.Fields.firstname;
 import static com.demo.spring.dto.UserCreateEditDto.Fields.lastname;
 import static com.demo.spring.dto.UserCreateEditDto.Fields.role;
 import static com.demo.spring.dto.UserCreateEditDto.Fields.username;
+import static com.demo.spring.dto.UserCreateEditDto.Fields.birthDate;
 import static org.hamcrest.collection.IsCollectionWithSize.hasSize;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
@@ -42,7 +43,7 @@ class UserControllerTest extends IntegrationTestBase {
                                 .param(lastname, "TestTest")
                                 .param(role, "ADMIN")
                                 .param(companyId, "1")
-//                        .param(birthDate, "2000-01-01")
+                                .param(birthDate, "2000-01-01")
                 )
                 .andExpectAll(
                         status().is3xxRedirection(),
