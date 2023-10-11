@@ -2,7 +2,6 @@ package com.demo.spring.config;
 
 
 import com.demo.spring.database.pool.ConnectionPool;
-import com.demo.spring.database.repository.UserRepository;
 import com.demo.web.config.WebConfiguration;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.beans.factory.config.BeanDefinition;
